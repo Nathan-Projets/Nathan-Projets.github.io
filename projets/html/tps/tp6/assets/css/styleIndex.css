@@ -6,10 +6,117 @@ body, main {
     background-color: #3d3d3d;
     color: white;
     font-family: Roboto, sans-serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
-.tenor-gif-embed {
+main {
+    background-color: transparent;
+    position: relative;
+    z-index: 1;
+    width: calc(100% - 100px);
+    margin-left: 100px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+hr {
+    width: 5%;
+    margin: 50px auto;
+}
+
+.text {
+    text-align: center;
+    width: 75%;
+    margin: 25px auto;
+}
+
+.liste {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.liste a {
+    display: block;
+    padding: 25px;
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.liste a:hover {
+    cursor: pointer;
+    background-color: rgb(206, 157, 22);
+}
+
+.background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    height: 100vh;
+    z-index: 0;
+}
+
+#menu {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    padding: 20px 35px;
+}
+
+.overlay-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100px;
+    background-color: #2f2f2f;
+}
+
+.overlay-menu:hover {
+    width: auto;
+}
+
+.overlay-menu > a {
+    margin-top: 25px;
+}
+
+.overlay-menu a {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    text-decoration: none !important;
+    color: white;
+}
+
+.overlay-menu a:hover {
+    cursor: pointer;
+    background-color: #ce9d16;
+}
+
+.overlay-menu:hover a {
+    padding-right: 15px;
+}
+
+.overlay-menu a img {
+    margin: 5px auto;
+}
+
+.overlay-menu:hover a img {
+    margin: 5px 15px;
+}
+
+.histo {
+    margin: 25px !important;
+    color: white !important;
+}
+
+.histo a {
+    color: white !important;
 }

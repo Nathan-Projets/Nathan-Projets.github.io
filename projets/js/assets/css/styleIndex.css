@@ -13,6 +13,8 @@ main {
     background-color: transparent;
     position: relative;
     z-index: 1;
+    width: calc(100% - 100px);
+    margin-left: 100px;
 }
 
 h1 {
@@ -108,4 +110,13 @@ hr {
 
 .overlay-menu:hover a img {
     margin: 5px 15px;
+}
+
+.histo {
+    margin: 25px !important;
+    color: white !important;
+}
+
+.histo a {
+    color: white !important;
 }
