@@ -124,6 +124,7 @@ hr {
 #compteur {
     font-size: 34px;
     text-align: center;
+    margin-left: 10px;
 }
 
 .timer-button {
@@ -132,4 +133,8 @@ hr {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+}
+
+.timer-button img:hover {
+    cursor: pointer;
 }
