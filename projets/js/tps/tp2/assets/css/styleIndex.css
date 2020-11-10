@@ -120,3 +120,16 @@ hr {
 .histo a {
     color: white !important;
 }
+
+#compteur {
+    font-size: 34px;
+    text-align: center;
+}
+
+.timer-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
