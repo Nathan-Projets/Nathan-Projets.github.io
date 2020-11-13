@@ -141,8 +141,9 @@ hr {
     cursor: pointer;
 }
 
-#canvas {
+#canvas, #canvas2, #canvas3 {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid white;
 }
