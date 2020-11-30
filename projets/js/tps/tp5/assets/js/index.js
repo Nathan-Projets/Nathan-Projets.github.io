@@ -10,6 +10,7 @@ window.onload = function () {
         }
 
         fetch(cors_api_url + url).then(function (response) {
+            console.log("ZIDANE");
             return response.text();
         }).then(function (text) {
 
