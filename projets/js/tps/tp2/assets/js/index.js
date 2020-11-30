@@ -170,7 +170,7 @@ document.addEventListener("DOMContentLoaded", function () {
             for (let i = 0; i < objets.length; i++) {
                 setTimeout(() => {
                     objets[i].timer = setInterval(objets[i].update.bind(objets[i]), 10, ctx);
-                }, (i*1000));
+                }, (i * 1000));
             }
 
         }
