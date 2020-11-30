@@ -10,16 +10,17 @@ window.onload = function () {
     }
 
     fetch(cors_api_url + url).then(function (response) {
+        console.log("ZIDANE");
         return response.text();
     }).then(function (text) {
 
-        console.log(text);/*
+        //console.log(text);
         var jCalData = ICAL.parse(text);
         let result = []
         let events = jCalData[1][2];
         events.forEach(e => result.push(flattenEvent(e)));
         console.log(events);
-        
+        /*
         var vcalendar = new ICAL.Component(jCalData);
         if(Array.isArray(vcalendar)) {
           console.log("         It's an array! ");
